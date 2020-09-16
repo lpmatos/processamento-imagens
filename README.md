@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="gitlab" src="https://www.embarcados.com.br/wp-content/uploads/2014/11/imagem-de-destaque-78.png" width="250px" float="center"/>
+  <img alt="gitlab" src="https://www.embarcados.com.br/wp-content/uploads/2014/11/imagem-de-destaque-78.png" width="400px" float="center"/>
 </p>
 
 <h1 align="center">Welcome to Processamento de Imagens repository</h1>
