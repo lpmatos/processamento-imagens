@@ -10,9 +10,9 @@ mansao = 'mansao.jpg'
 cranio = 'cranio.png'
 
 % ---- LENDO IMAGEM ----
-img = imread(cranio); 
+img = imread(cranio);
 
-% ---- EXIBE ----
+% ---- SHOW IMAGEM ----
 figure; imshow(img)
 
 % ---- PHANTON IMAGE ----
@@ -37,7 +37,7 @@ disp(DimMax);
 % b o numero de bits da quantizacao
 % L o nivel de cinza
 b = 2;
-L = 2^b;  
+L = 2^b;
 
 % ---- CONSTROI MATRIZ DE ZEROS ----
 lim = zeros(1, L - 1)
@@ -53,7 +53,6 @@ disp(lim);
 for x = 1 : s(1)
     for y = 1 : length(img)
         apply = false;
-
         % ---- COMPARA MATRIZ DA IMAGEM COM A MATRIZ LIMIAR ----
         for i = 1 : L - 1
             if img(x, y) <= lim(i)
@@ -63,12 +62,11 @@ for x = 1 : s(1)
                 break
             end
         end
-
         if apply == false
             img(x, y, :) = 1;
         end
     end
 end
 
-% ---- EXIBE ----
+% ---- SHOW IMAGEM ----
 figure; imshow(img)

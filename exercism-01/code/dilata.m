@@ -5,10 +5,10 @@ mansao = 'mansao.jpg'
 cranio = 'cranio.png'
 
 % ---- LENDO IMAGEM ----
-img = imread(cranio); 
+img = imread(cranio);
 
 % ---- SHOW IMAGEM ----
-figure; title('Original'); imshow(img)
+figure; imshow(img)
 
 % ---- PHANTON IMAGE ----
 P = phantom('Modified Shepp-Logan',300);
@@ -43,5 +43,5 @@ for y = 1 : s(1)
     end
 end
 
-% ---- EXIBE ----
+% ---- SHOW IMAGEM ----
 figure; imshow(imgDilatada)
