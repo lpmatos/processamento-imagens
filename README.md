@@ -33,8 +33,6 @@ IESB - Processamento de imagens (2020)
 * Dilatação
 * Redução de ruídos
 
-
-
 ## ➤ How to contribute
 
 >
