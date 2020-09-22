@@ -27,13 +27,7 @@ This will give access on your **local machine**.
 
 ## ➤ Description
 
-IESB - Processamento de imagens (2020)
-
-* Quantização
-* Dilatação
-* Redução de ruídos
-
-#### Atividades
+Atividades realizadaes na disciplina de Processamento de imagens - IESB (2020). Nesses exercícios são abordados temos como:
 
 * [Quantização e Dilatação](./code/exercism-01)
 * [Redução de Ruídos](./code/exercism-02)
