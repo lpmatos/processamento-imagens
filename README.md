@@ -33,6 +33,11 @@ IESB - Processamento de imagens (2020)
 * Dilatação
 * Redução de ruídos
 
+#### Atividades
+
+* [Quantização e Dilatação](./code/exercism-01)
+* [Redução de Ruídos](./code/exercism-02)
+
 ## ➤ How to contribute
 
 >
