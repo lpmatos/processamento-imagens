@@ -1,1 +1,1 @@
-**/docs/*.docx filter=lfs diff=lfs merge=lfs -text
+code/**/docs/*.docx filter=lfs diff=lfs merge=lfs -text
