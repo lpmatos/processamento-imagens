@@ -8,13 +8,13 @@ clear, clc, close all;
 % ---- IMAGENS ----
 peppers = 'peppers.png'
 mansao = 'mansao.jpg'
-cranio = 'cranio.png'
 vaca = 'vaquinha.jpg'
-image = 'image.png'
 phanton = 'phanton.png'
+natureza = 'natureza.png'
+mulher = 'mulher.png'
 
 % ---- LENDO IMAGEM ----
-img = imread(phanton);
+img = imread(mulher);
 
 % ---- EXIBE IMAGEM ----
 figure; imshow(img)
