@@ -6,15 +6,11 @@ clear, clc, close all;
 % a aparência final da imagem.
 
 % ---- IMAGENS ----
-peppers = 'peppers.png'
-mansao = 'mansao.jpg'
-vaca = 'vaquinha.jpg'
 phanton = 'phanton.png'
 natureza = 'natureza.png'
-mulher = 'mulher.png'
 
 % ---- LENDO IMAGEM ----
-img = imread(mulher);
+img = imread(phanton);
 
 % ---- EXIBE IMAGEM ----
 figure; imshow(img)

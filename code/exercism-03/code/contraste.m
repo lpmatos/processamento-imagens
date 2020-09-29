@@ -9,13 +9,10 @@ clear, clc, close all;
 
 % ---- IMAGENS ----
 peppers = 'peppers.png'
-mansao = 'mansao.jpg'
-cranio = 'cranio.png'
-vaca = 'vaquinha.jpg'
-image = 'image.png'
+mulher = 'mulher.png'
 
 % ---- LENDO IMAGEM ----
-img = imread(peppers);
+img = imread(mulher);
 
 % ---- ITERACOES E GAMA ----
 % A operação de Gamma correction visa alterar ao mesmo tempo o contraste e o brilho. 
@@ -48,9 +45,8 @@ gray = mat2gray(img);
 figure; imshow(gray);
 
 % ---- APLICA CONTRASTE ----
-for i = 1 : iteracoes
-    gray = gray.^ gama;
-end
+result = gray.^ gama;
 
 % ---- EXIBE IMAGEM ----
-figure; imshow(gray);
+subplot(3,3,1); imshow(gray); title("Original Image");
+subplot(3,3,2); imshow(result); title("Contraste");
