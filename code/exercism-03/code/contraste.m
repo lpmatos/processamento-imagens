@@ -12,6 +12,7 @@ peppers = 'peppers.png'
 mansao = 'mansao.jpg'
 cranio = 'cranio.png'
 vaca = 'vaquinha.jpg'
+image = 'image.png'
 
 % ---- LENDO IMAGEM ----
 img = imread(peppers);
@@ -23,7 +24,7 @@ img = imread(peppers);
 % Quando o valor de gamma é < 1 temos maior contraste e menos brilho. 
 % Quando o valor é > 1 temos mais brilho e menos contraste.
 iteracoes = 2
-gama = 0.5
+gama = 1.5
 
 % ---- EXIBE IMAGEM ----
 figure; imshow(img)
